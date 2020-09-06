@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Firebase Notes App"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <com.firebase.ui.auth.util.ui.SupportVectorDrawablesButton
+        android:id="@+id/email_button"
+        style="@style/FirebaseUI.Button.AccountChooser.EmailButton"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/fui_sign_in_with_email"
+        tools:ignore="UnusedIds" />
+
+
+    <com.firebase.ui.auth.util.ui.SupportVectorDrawablesButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/google_button"
+        style="@style/FirebaseUI.Button.AccountChooser.GoogleButton"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/fui_sign_in_with_google" />
+</LinearLayout>

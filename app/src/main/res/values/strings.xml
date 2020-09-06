@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FinalAndroidProject</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_blah">blah</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
